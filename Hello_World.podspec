@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "chengyanxing" => "chengyanxing@sogou-inc.com" }
+  s.author             = { "chengyanxing" => "chengyanxing_0709@163.com" }
   # Or just: s.author    = "chengyanxing"
-  s.authors            = { "chengyanxing" => "chengyanxing_0709@163.com" }
+  # s.authors            = { "chengyanxing" => "chengyanxing_0709@163.com" }
   # s.social_media_url   = "http://twitter.com/chengyanxing"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/Hello_World.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yanxingcheng/Hello_World.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
