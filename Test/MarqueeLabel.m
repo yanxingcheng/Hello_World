@@ -1653,4 +1653,10 @@ CGPoint MLOffsetCGPoint(CGPoint point, CGFloat offset) {
     return [NSArray arrayWithArray:pointArray];
 }
 
+- (NSString *)getRandomString
+{
+    NSString *string = @"qqqqqqqqqqqqqqqqqqqqq";
+    return string;
+}
+
 @end
